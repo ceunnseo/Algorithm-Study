@@ -2,16 +2,65 @@
 
 정렬 관련 문제들입니다. 정렬을 직접 구현하며 짜보기도 하고, 내장 함수도 사용하면서 알고리즘을 익혀봅시다 :)
 
-스터디 전 날 까지 풀어야 하는 **필수 문제**는 ⭐   표시했습니다!
+✅ **기초 문제** : 코드를 작성해보고 주석을 달아보며 알고리즘의 기초를 익혀봅시다.
+⭐ **필수 문제** : 스터디 전 날까지 고민해보고 풀어봅시다!
 
 
-|순서| 필수 문제 | 난이도 | 문제명 | 링크 |
-|----|------| ------ | ----- | ----|
-| 1 | ⭐ | [![Bronze II](https://camo.githubusercontent.com/5ce717d916acff7b6a5e163f173ba1c8873f10350c38672eec4f1d628c600990/68747470733a2f2f7374617469632e736f6c7665642e61632f746965725f736d616c6c2f342e737667 "Bronze II")](https://camo.githubusercontent.com/5ce717d916acff7b6a5e163f173ba1c8873f10350c38672eec4f1d628c600990/68747470733a2f2f7374617469632e736f6c7665642e61632f746965725f736d616c6c2f342e737667) | 수 정렬하기  |[백준 2750](https://www.acmicpc.net/problem/2750)|
-|2 | ⭐ |[![Bronze II](https://camo.githubusercontent.com/5ce717d916acff7b6a5e163f173ba1c8873f10350c38672eec4f1d628c600990/68747470733a2f2f7374617469632e736f6c7665642e61632f746965725f736d616c6c2f342e737667 "Bronze II")](https://camo.githubusercontent.com/5ce717d916acff7b6a5e163f173ba1c8873f10350c38672eec4f1d628c600990/68747470733a2f2f7374617469632e736f6c7665642e61632f746965725f736d616c6c2f342e737667) | 수 정렬하기2 |[백준 2751](https://www.acmicpc.net/problem/2750)|
-|3 |  | [![Bronze II](https://camo.githubusercontent.com/5ce717d916acff7b6a5e163f173ba1c8873f10350c38672eec4f1d628c600990/68747470733a2f2f7374617469632e736f6c7665642e61632f746965725f736d616c6c2f342e737667 "Bronze II")](https://camo.githubusercontent.com/5ce717d916acff7b6a5e163f173ba1c8873f10350c38672eec4f1d628c600990/68747470733a2f2f7374617469632e736f6c7665642e61632f746965725f736d616c6c2f342e737667) | 수 정렬하기3 |[백준 10989](https://www.acmicpc.net/problem/2750)|
-|4 |  | [![](https://camo.githubusercontent.com/6fbfe675f542e0bdf29b58cbd27d163996926faa1f217fdc6054eae12034f0c6/68747470733a2f2f64326764367063303334776374612e636c6f756466726f6e742e6e65742f746965722f362e737667)](https://camo.githubusercontent.com/6fbfe675f542e0bdf29b58cbd27d163996926faa1f217fdc6054eae12034f0c6/68747470733a2f2f64326764367063303334776374612e636c6f756466726f6e742e6e65742f746965722f362e737667) | 소트인사이드 | [백준 1427](https://www.acmicpc.net/problem/1427)
-|5 |  | [![Silver III](https://camo.githubusercontent.com/627abdadaa6151e4ef8e6ef62f47e735acfcd7c04d75fa1d771cf166a06a7f42/68747470733a2f2f7374617469632e736f6c7665642e61632f746965725f736d616c6c2f382e737667 "Silver III")](https://camo.githubusercontent.com/627abdadaa6151e4ef8e6ef62f47e735acfcd7c04d75fa1d771cf166a06a7f42/68747470733a2f2f7374617469632e736f6c7665642e61632f746965725f736d616c6c2f382e737667)| 통계학 | [백준 1181](https://www.acmicpc.net/problem/1181)
-|6 | ⭐ |[![](https://camo.githubusercontent.com/6fbfe675f542e0bdf29b58cbd27d163996926faa1f217fdc6054eae12034f0c6/68747470733a2f2f64326764367063303334776374612e636c6f756466726f6e742e6e65742f746965722f362e737667)](https://camo.githubusercontent.com/6fbfe675f542e0bdf29b58cbd27d163996926faa1f217fdc6054eae12034f0c6/68747470733a2f2f64326764367063303334776374612e636c6f756466726f6e742e6e65742f746965722f362e737667) | 좌표 정렬하기| [백준 11650](https://www.acmicpc.net/problem/11650)|
-|7 | ⭐ |[![](https://camo.githubusercontent.com/6fbfe675f542e0bdf29b58cbd27d163996926faa1f217fdc6054eae12034f0c6/68747470733a2f2f64326764367063303334776374612e636c6f756466726f6e742e6e65742f746965722f362e737667)](https://camo.githubusercontent.com/6fbfe675f542e0bdf29b58cbd27d163996926faa1f217fdc6054eae12034f0c6/68747470733a2f2f64326764367063303334776374612e636c6f756466726f6e742e6e65742f746965722f362e737667) | 좌표 정렬하기2| [백준 11651](https://www.acmicpc.net/problem/11651)|
-|8| ⭐ |[![](https://camo.githubusercontent.com/6fbfe675f542e0bdf29b58cbd27d163996926faa1f217fdc6054eae12034f0c6/68747470733a2f2f64326764367063303334776374612e636c6f756466726f6e742e6e65742f746965722f362e737667)](https://camo.githubusercontent.com/6fbfe675f542e0bdf29b58cbd27d163996926faa1f217fdc6054eae12034f0c6/68747470733a2f2f64326764367063303334776374612e636c6f756466726f6e742e6e65742f746965722f362e737667) | 단어 정렬| [백준 1181](https://www.acmicpc.net/problem/1181)|
+<table>
+<tbody>
+<tr>
+<td align="center">순서</td>
+<td align="center">문제 구분</td>
+<td align="center">난이도</td>
+<td align="center">문제 이름</td>
+</tr>
+<tr>
+<td align="center">01</td>
+<td align="center">✅</td>
+<td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/6.svg" width="25px" height="23px" /></td>
+<td align="center"><a href="https://www.acmicpc.net/problem/11728">[11728] 배열 합치기</a></td>
+</tr>
+<tr>
+<td align="center">01</td>
+<td align="center">⭐</td>
+<td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/5.svg" width="25px" height="23px" /></td>
+<td align="center"><a href="https://www.acmicpc.net/problem/2750">[2750] 수 정렬하기</a></td>
+</tr>
+<tr>
+<td align="center">02</td>
+<td align="center">✅</td>
+<td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/6.svg" width="25px" height="23px" /></td>
+<td align="center"><a href="https://www.acmicpc.net/problem/2751">[2751] 수 정렬하기2</a></td>
+</tr>
+<tr>
+<td align="center">03</td>
+<td align="center">⭐</td>
+<td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/6.svg" width="25px" height="23px" /></td>
+<td align="center"><a href="https://www.acmicpc.net/problem/10989">[10989] 수 정렬하기3</a></td>
+</tr>
+<tr>
+<td align="center">03</td>
+<td align="center">⭐</td>
+<td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/6.svg" width="25px" height="23px" /></td>
+<td align="center"><a href="https://www.acmicpc.net/problem/11650">[11650] 좌표 정렬하기</a></td>
+</tr>
+<tr>
+<td align="center">04</td>
+<td align="center">&nbsp;</td>
+<td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/4.svg" width="25px" height="23px" /></td>
+<td align="center"><a href="https://www.acmicpc.net/problem/25305">[25305] 커트라인 </a></td>
+</tr>
+<tr>
+<td align="center">04</td>
+<td align="center">&nbsp;</td>
+<td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/6.svg" width="25px" height="23px" /></td>
+<td align="center"><a href="https://www.acmicpc.net/problem/1427">[1427] 소트인사이드</a></td>
+</tr>
+<tr>
+<td align="center">04</td>
+<td align="center">&nbsp;</td>
+<td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="25px" height="23px" /></td>
+<td align="center"><a href="https://www.acmicpc.net/problem/18870">[18870] 좌표 압축</a></td>
+</tr>
+</tbody>
+</table>
