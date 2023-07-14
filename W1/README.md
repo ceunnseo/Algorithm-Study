@@ -29,49 +29,49 @@
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center">01</td>
+<td align="center">02</td>
 <td align="center">⭐</td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/4.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/2750">[2750] 수 정렬하기</a></td>
 <td align="center">소트 직접 구현하기</td>
 </tr>
 <tr>
-<td align="center">02</td>
+<td align="center">03</td>
 <td align="center">✅</td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/6.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/2751">[2751] 수 정렬하기2</a></td>
 <td align="center">소트 직접 구현하기</td>
 </tr>
 <tr>
-<td align="center">03</td>
+<td align="center">04</td>
 <td align="center">⭐</td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/5.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/10989">[10989] 수 정렬하기3</a></td>
 <td align="center">소트 직접 구현하기</td>
 </tr>
 <tr>
-<td align="center">03</td>
+<td align="center">05</td>
 <td align="center">⭐</td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/6.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/11650">[11650] 좌표 정렬하기</a></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center">04</td>
+<td align="center">06</td>
 <td align="center">&nbsp;</td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/4.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/25305">[25305] 커트라인 </a></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center">04</td>
+<td align="center">07</td>
 <td align="center">&nbsp;</td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/6.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/1427">[1427] 소트인사이드</a></td>
 <td align="center"></td>
 </tr>
 <tr>
-<td align="center">04</td>
+<td align="center">08</td>
 <td align="center">&nbsp;</td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/18870">[18870] 좌표 압축</a></td>
@@ -106,43 +106,43 @@
 <td align="center"><a href="https://www.acmicpc.net/problem/1920">[1920] 수 찾기</a></td>
 </tr>
 <tr>
-<td align="center">01</td>
+<td align="center">02</td>
 <td align="center">✅</td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/7.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/10816">[10816] 숫자카드2</a></td>
 </tr>
 <tr>
-<td align="center">02</td>
+<td align="center">03</td>
 <td align="center">✅</td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/12.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/2295">[2295] 세 수의 합</a></td>
 </tr>
 <tr>
-<td align="center">03</td>
+<td align="center">04</td>
 <td align="center">✅</td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/1654">[1654] 랜선 자르기</a></td>
 </tr>
 <tr>
-<td align="center">03</td>
+<td align="center">05</td>
 <td align="center">⭐</td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/6.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/1789">[1789] 수들의 합</a></td>
 </tr>
 <tr>
-<td align="center">04</td>
+<td align="center">06</td>
 <td align="center">⭐</td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/2805">[2805] 나무 자르기 </a></td>
 </tr>
 <tr>
-<td align="center">04</td>
+<td align="center">07</td>
 <td align="center">⭐</td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/14.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/1300">[1300] k번째 수</a></td>
 </tr>
 <tr>
-<td align="center">04</td>
+<td align="center">08</td>
 <td align="center">&nbsp;</td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/13.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/2473">[2473] 세 용액</a></td>
@@ -160,48 +160,56 @@
 <td align="center">문제 구분</td>
 <td align="center">난이도</td>
 <td align="center">문제 이름</td>
+<td align="center">기타</td>
 </tr>
 <tr>
 <td align="center">01</td>
 <td align="center">✅</td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/11.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/2230">[2230] 수 고르기</a></td>
-</tr>
-<tr>
-<td align="center">01</td>
-<td align="center">✅</td>
-<td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/12.svg" width="25px" height="23px" /></td>
-<td align="center"><a href="https://www.acmicpc.net/problem/1806">[1806] 부분합 </a></td>
+<td align="center"></td>
 </tr>
 <tr>
 <td align="center">02</td>
-<td align="center">⭐</td>
-<td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/6.svg" width="25px" height="23px" /></td>
-<td align="center"><a href="https://www.acmicpc.net/problem/11728">[11728] 배열 합치기</a></td>
+<td align="center">✅</td>
+<td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/12.svg" width="25px" height="23px" /></td>
+<td align="center"><a href="https://www.acmicpc.net/problem/1806">[1806] 부분합 </a></td>
+<td align="center"></td>
 </tr>
 <tr>
 <td align="center">03</td>
+<td align="center"></td>
+<td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/6.svg" width="25px" height="23px" /></td>
+<td align="center"><a href="https://www.acmicpc.net/problem/11728">[11728] 배열 합치기</a></td>
+<td align="center">정렬 필수 문제와 겹침</td>
+</tr>
+<tr>
+<td align="center">04</td>
 <td align="center">⭐</td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/8.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/3273">[3273] 두 수의 합</a></td>
+<td align="center"></td>
 </tr>
 <tr>
-<td align="center">03</td>
+<td align="center">05</td>
 <td align="center">⭐</td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/12.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/1644">[1644] 소수의 연속합</a></td>
+<td align="center"></td>
 </tr>
 <tr>
-<td align="center">04</td>
+<td align="center">06</td>
 <td align="center"></td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/12.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/15961">[15961] 회전 초밥 </a></td>
+<td align="center"></td>
 </tr>
  <tr>
-<td align="center">04</td>
+<td align="center">07</td>
 <td align="center"></td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/20922">[20922] 겹치는 건 싫어 </a></td>
+<td align="center"></td>
 </tr>
 </tbody>
 </table>
