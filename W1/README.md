@@ -147,6 +147,12 @@
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/13.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/2473">[2473] 세 용액</a></td>
 </tr>
+<tr>
+<td align="center">09</td>
+<td align="center">✅</td>
+<td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="25px" height="23px" /></td>
+<td align="center"><a href="https://www.acmicpc.net/problem/2473">[18870] 좌표 압축</a></td>
+</tr>
 </tbody>
 </table>
 
