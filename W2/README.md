@@ -31,7 +31,7 @@
 <td align="center">02</td>
 <td align="center">✅</td>
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/7.svg" width="25px" height="23px" /></td>
-<td align="center"><a href="https://www.acmicpc.net/problem/2750">[10845] 큐 </a></td>
+<td align="center"><a href="https://www.acmicpc.net/problem/10845">[10845] 큐 </a></td>
 <td align="center">큐 직접 구현하기</td>
 </tr>
 <tr>
