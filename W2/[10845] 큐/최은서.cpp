@@ -1,79 +1,98 @@
-// 언어 c++, 메모리 1156KB, 시간 4ms
+// 언어 c, 메모리 1388KB, 시간 4ms
+// 23.7.27 변경사항 큐를 원형큐로 & 구조체 타입으로 구현
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+#define SIZE 100000
+typedef struct queue
+{
+	int front;
+	int rear;
+	int arr[SIZE];
+};
 
-using namespace std;
-int q[10000];
-int head = 0, tail = 0;
-
-void push(int x)
+void queueInit(struct queue* q)
 {
-	q[tail++] = x;
+	q->front = 0;
+	q->rear = 0;
 }
 
+void push(struct queue* q, int x)
+{
+	q->rear = (q->rear + 1) % SIZE;
+	q->arr[q->rear] = x;
+}
 
-int size()
+int pop(struct queue* q)
 {
-	return tail - head;
+	if (q->front == q->rear) return -1;
+	q->front = (q->front + 1) % SIZE;
+	return q->arr[q->front];
 }
-int empty()
+
+int size(struct queue* q)
 {
-	if (size() == 0) return 1;
-	else return 0;
+	return (q->rear - q->front);
 }
-int pop()
+
+int empty(struct queue* q)
 {
-	if (empty()) return -1;
-	return q[head++];
+	if (q->front == q->rear) return 1;
+	return 0;
 }
-int front()
+
+int front(struct queue* q)
 {
-	if (empty()) return -1;
-	return q[head];
+	if (q->front == q->rear) return -1;
+	return q->arr[q->front+1];
 }
-int back()
+int back(struct queue* q)
 {
-	if (empty()) return -1;
-	return q[tail - 1];
+	if (q->front == q->rear) return -1;
+	return q->arr[q->rear];
 }
 
 
 int main(void)
 {
+	struct queue myqueue;
+	queueInit(&myqueue);
 
-	char command[6];
+
 	int n;
-	int data;
+	int num;
+	char command[6];
+
 	scanf("%d", &n);
-	for (int i = 0; i < n; i++)
+	for(int i = 0; i < n; i++)
 	{
 		scanf("%s", command);
 		if (strcmp(command, "push") == 0)
 		{
-			scanf("%d", &data);
-			push(data);
+			scanf("%d", &num);
+			push(&myqueue, num);
 		}
 		else if (strcmp(command, "pop") == 0)
 		{
-			printf("%d\n", pop());
+			printf("%d\n", pop(&myqueue));
 		}
 		else if (strcmp(command, "size") == 0)
 		{
-			printf("%d\n", size());
+			printf("%d\n", size(&myqueue));
 		}
 		else if (strcmp(command, "empty") == 0)
 		{
-			printf("%d\n", empty());
+			printf("%d\n", empty(&myqueue));
 		}
 		else if (strcmp(command, "front") == 0)
 		{
-			printf("%d\n", front());
+			printf("%d\n", front(&myqueue));
 		}
 		else if (strcmp(command, "back") == 0)
 		{
-			printf("%d\n", back());
+			printf("%d\n", back(&myqueue));
 		}
 	}
+
 }
