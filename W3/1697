@@ -1,0 +1,41 @@
+// [1697] 언어 : C++, 메모리 (KB) : 2932 , 시간(ms) : 0
+
+#include <bits/stdc++.h>
+using namespace std;
+
+#define X first
+#define Y second
+
+int n, k;
+int dist[200001];
+int res;
+
+int main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+
+    cin >> n >> k;
+
+    queue<int> q;
+    fill(dist, dist + 100001, -1);
+    q.push(n);
+    dist[n] = 0;
+
+    while (!q.empty()) {
+        int x = q.front();
+        q.pop();
+        if (x == k) {
+            cout << dist[x];
+            return 0;
+        }
+        int check[3] = { x - 1,x + 1,2 * x };
+        
+        for (int i = 0; i < 3; i++) {
+            if (check[i] < 0 || check[i] > 200000) continue; // 범위는 0~200000, 상식적으로 음수는 아님..? why..
+            if (dist[check[i]] != -1) continue; // 이미 방문한 상태
+            q.push(check[i]);
+            dist[check[i]] = dist[x] + 1;
+        }
+    }
+    cout << res;
+}
