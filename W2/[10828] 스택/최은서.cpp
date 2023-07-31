@@ -1,68 +1,87 @@
 //언어 C++, 메모리 1156KB, 시간 4ms
+// -> 수정 언어 C, 메모리 1156KB, 시간 4ms & 스택의 pos 초기 -1로 설정
+
 #define _CRT_SECURE_NO_WARNINGS
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
-using namespace std;
+#define SIZE 10000
+typedef struct stack
+{
+	int pos;
+	int arr[SIZE];
+};
 
-int myStack[10000];
-int cur = 0;
+void stackInit(struct stack* s)
+{
+	s->pos = -1;
+}
 
-void push(int num)
+void push(struct stack* s, int value)
 {
-	myStack[cur++] = num;
+	s->arr[++(s->pos)] = value;
 }
-int pop()
+
+int pop(struct stack *s)
 {
-	if (cur <= 0) return -1;
-	return myStack[--cur];
+	// 스택이 비어있다면
+	if (s->pos == -1) return -1;
+	return s->arr[(s->pos)--];
+
 }
-int top()
+
+int size(struct stack* s)
 {
-	if (cur <= 0) return -1;
-	return myStack[cur-1];
+	return s->pos + 1;
 }
-int size()
+
+int empty(struct stack* s)
 {
-	return cur;
+	if (s->pos == -1) return 1;
+	return 0;
 }
-int empty()
+
+int top(struct stack* s)
 {
-	if (cur == 0) return 1;
-	else return 0;
+	if (s->pos == -1) return -1;
+	return s->arr[s->pos];
 }
 
 
 int main(void)
 {
+	struct stack mystack;
+	stackInit(&mystack);
+
+
 	int n;
-	int number;
-	char option[6];
+	int num;
+	char command[6];
+
 	scanf("%d", &n);
-	for (int i = 0; i < n; i++)
+	for(int i = 0; i < n; i++)
 	{
-		scanf("%s", option);
-		fgetc(stdin); //버퍼 지우기
-		if (strcmp(option, "push") == 0)
+		scanf("%s", command);
+		if (strcmp(command, "push") == 0)
 		{
-			scanf("%d", &number);
-			fgetc(stdin); //버퍼 지우기
-			push(number);
+			scanf("%d", &num);
+			push(&mystack, num);
 		}
-		else if (strcmp(option, "pop") == 0)
+		else if (strcmp(command, "pop") == 0)
 		{
-			printf("%d\n", pop());
+			printf("%d\n", pop(&mystack));
 		}
-		else if (strcmp(option, "size") == 0)
+		else if (strcmp(command, "size") == 0)
 		{
-			printf("%d\n", size());
+			printf("%d\n", size(&mystack));
 		}
-		else if (strcmp(option, "empty") == 0)
+		else if (strcmp(command, "empty") == 0)
 		{
-			printf("%d\n", empty());
+			printf("%d\n", empty(&mystack));
 		}
-		else if (strcmp(option, "top") == 0)
+		else if (strcmp(command, "top") == 0)
 		{
-			printf("%d\n", top());
+			printf("%d\n", top(&mystack));
 		}
 	}
 }
