@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#define MAX 1000002
+#define MAX 1000001
 int main(void)
 {
 	int n, k;
