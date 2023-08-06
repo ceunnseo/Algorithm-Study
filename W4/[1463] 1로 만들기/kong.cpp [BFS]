@@ -1,4 +1,4 @@
-// [1463] ¾ð¾î : C++, ¸Þ¸ð¸® (KB) :  , ½Ã°£(ms) : 
+// [1463] 언어 : C++, 메모리 (KB) : 5928 , 시간(ms) : 12
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -35,7 +35,7 @@ int main() {
         }
     }
 
-    cout << dist [1];
+    cout << dist [1]; // 최종적으로 1까지 가는 거리를 구하면 됨!
 
     return 0;
 }
