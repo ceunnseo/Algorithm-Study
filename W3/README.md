@@ -5,6 +5,7 @@ DFS와 BFS 기초 & 응용 문제를 풀어봅시다!
 
  <br/>
 ✅ 기초 : 꼭 풀어보아야 할 기초 문제입니다.
+
 ⭐ 필수 : 스터디 당일 발표 진행할 문제입니다.
  <br/>
 
@@ -74,6 +75,20 @@ DFS와 BFS 기초 & 응용 문제를 풀어봅시다!
 <td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/10.svg" width="25px" height="23px" /></td>
 <td align="center"><a href="https://www.acmicpc.net/problem/7562">[7562] 나이트의 이동 </a></td>
 <td align="center"></td>
+</tr>
+ <tr>
+<td align="center">09</td>
+<td align="center"></td>
+<td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/8.svg" width="25px" height="23px" /></td>
+<td align="center"><a href="https://www.acmicpc.net/problem/2606">[2606] 바이러스 </a></td>
+<td align="center">⭐ 발표 (w4) </td>
+</tr>
+ <tr>
+<td align="center">10</td>
+<td align="center"></td>
+<td align="center"><img src="https://d2gd6pc034wcta.cloudfront.net/tier/9.svg" width="25px" height="23px" /></td>
+<td align="center"><a href="https://www.acmicpc.net/problem/11724">[11724] 연결 요소의 개수 </a></td>
+<td align="center">⭐ 발표(w4) </td>
 </tr>
 </tbody>
 </table>
