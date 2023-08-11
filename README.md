@@ -41,6 +41,6 @@
 | 2 | 스택, 큐 | [W2](https://github.com/ceunnseo/Algorithm-Study/tree/main/W2) |
 | 3 | DFS, BFS | [W3](https://github.com/ceunnseo/Algorithm-Study/tree/main/W3)|
 | 4 | DP(동적계획법) | [W4](https://github.com/ceunnseo/Algorithm-Study/tree/main/W4)|
-| 5 | 재귀, 백트래킹 | |
+| 5 | 재귀, 백트래킹 | [W5](https://github.com/ceunnseo/Algorithm-Study/tree/main/W5)|
 | 6 |다익스트라 알고리즘 | |
 | 7 |그리디, 구현 | |
