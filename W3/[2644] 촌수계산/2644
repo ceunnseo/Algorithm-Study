@@ -1,0 +1,39 @@
+// [2644] 언어 : C++, 메모리 (KB) : 2060 , 시간(ms) : 0
+
+#include <bits/stdc++.h>
+using namespace std;
+int board[101][101];
+int chon[101];
+int n, p1, p2, m, x, y;
+
+int main() {
+    ios::sync_with_stdio(0);
+    cin.tie(0);
+
+    cin >> n >> p1 >> p2 >> m;
+
+    fill(chon, chon + 101, -1); // 촌수 계산을 하지못한경우 업데이트가 안되므로 -1 유지
+
+    while (m--) {
+        cin >> x >> y;
+        board[x][y] = 1; // 부모 자식간 1촌
+        board[y][x] = 1;
+    }
+
+    queue<int> q;
+    q.push(p1); 
+    chon[p1] = 0;
+    while (!q.empty()) {
+        int cur = q.front();
+        q.pop();
+        for (int i = 1; i <= n; i++) { // 사람은 1부터 n까지 표시되므로 
+            if (board[cur][i] == 1 && chon[i] == -1) {
+                q.push(i);
+                chon[i] = chon[cur] + 1;
+            }
+        }
+    }
+    cout << chon[p2];
+
+    return 0;
+}
